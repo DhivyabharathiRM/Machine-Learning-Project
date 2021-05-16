@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Importing Dataset
-dataset = pd.read_csv('D:/Data Analytics/DA/Datasets/IceCreamData.csv')
+dataset = pd.read_csv('IceCreamData.csv')
 
 # Analyzing the Data
 print(dataset.head())
