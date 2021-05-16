@@ -59,5 +59,4 @@ ggscatter(ind.coord, x = 'Dim.1', y = 'Dim.2', color = 'cluster',
           shape = 'Species', size = 1.5, legend = 'right', 
           ggtheme = theme_bw(),
           xlab = paste0('Dim 1 (',variance.percent[1],'%)'),
-          ylab = paste0('Dim 2 (',variance.percent[2],'%)')
-)+ stat_mean(aes(color = cluster), size = 4)
+          ylab = paste0('Dim 2 (',variance.percent[2],'%)'))+ stat_mean(aes(color = cluster), size = 4)
